@@ -1,0 +1,32 @@
+
+
+
+#match-list{
+	position: fixed;
+	top: 58px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+#match-wrapper{
+	width: 100%;
+	text-align: center;
+}
+
+.match-item{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	border-radius: 50%;
+	background-color: red;
+	display: inline-block;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+

@@ -1,0 +1,63 @@
+body{
+	margin: 0px;
+}
+* {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	-webkit-user-select:none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#nav-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 58px;
+	border-bottom: 1px solid #ccc;
+}
+
+#nav-bar .nav-left-btn{
+	position: absolute;
+	bottom: -5px;
+	left: 0px;
+	top: 0px;
+	width: 56px;
+	background-position: 10px 25px;
+	background-repeat: no-repeat;
+	background-size: 28px;
+}
+#nav-bar .return-btn{
+	padding: 22px 30px 10px 13px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#nav-bar .logo{
+	position: absolute;
+	bottom: 0px;
+	left: 40px;
+	right: 40px;
+	height: 40px;
+	padding-top: 9px;
+	text-align: center;
+    font-weight: 600;
+    color: #0169DE;
+}
+
+#nav-bar .nav-right-btn{
+	position: absolute;
+	bottom: -5px;
+	right: 0px;
+	top: 0px;
+	width: 56px;
+	background-position: 18px 26px;
+	background-repeat: no-repeat;
+	background-size: 28px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- script src="http://192.168.1.10:8080/target/target-script-min.js#anonymous"></script-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery-easing.min.js"></script>
+    <script type="text/javascript" src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+
+    <title>blinder</title>
+</head>
+
+<body>
+
+    <div id="nav-bar">
+        <div class="nav-left-btn"></div>
+        <div class="logo">BLINDER</div>
+        <a href="login.html"><div class="nav-right-btn"></div></a>
+        <!--a href="blindspot.html"><div class="nav-right-btn"></div></a-->
+    </div>
+
+    <div id="footer">
+        <div id="not-btn" class="main-btn">
+            <div class="btn-icon"></div>
+        </div>
+        <div id="hot-btn" class="main-btn">
+            <div class="btn-icon"></div>
+        </div>
+    </div>
+
+    <div id="swipe-container" class="swipe-container">
+        <div class="panel" index="1" handle="0">
+            <div class="panel-wrapper">
+                <div class="panel-img" style="background-image: url('res/sample/1.jpg')"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <div class="panel" index="2" handle="1">
+            <div class="panel-wrapper">
+                <div class="panel-img" style="background-image: url('res/sample/2.jpg')"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <div class="panel" index="3" handle="2">
+            <div class="panel-wrapper">
+                <div class="panel-img" style="background-image: url('res/sample/3.jpeg')"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <div class="panel" index="4" handle="3">
+            <div class="panel-wrapper">
+                <div class="panel-img" style="background-image: url('res/sample/4.jpeg')"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <div class="panel" index="5" handle="4">
+            <div class="panel-wrapper">
+                <div class="panel-img" style="background-image: url('res/sample/5.jpeg')"></div>
+                <div class="panel-footer">
+                    <div class="name-age">Cara, 24</div>
+                    <div class="photo-count">1</div>
+                    <div class="mutual-friends">1</div>
+                    <div class="description">Hello, I'm a bubbly, chatty, joyful character with my whole heart to give. Hello, I'm a bubbly, chatty, joyful character with my whole heart to give. Hello, I'm a bubbly, chatty, joyful character with my whole heart to give. Hello, I'm a bubbly, chatty, joyful character with my whole heart to give. Hello, I'm a bubbly, chatty, joyful character with my whole heart to give. Hello, I'm a bubbly, chatty, joyful character with my whole heart to give. Hello, I'm a bubbly, chatty, joyful character with my whole heart to give.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="settings">
+        <div class="title">Settings</div>
+        <div class="item">Preferences</div>
+    </div>
+
+
+</body>
+
+</html>
